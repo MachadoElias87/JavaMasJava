@@ -45,5 +45,11 @@ public class Perro {
 
     }
 
+    public void raz(){
+        System.out.println("la raza de mi perro es "+this.raza);
+    }
 
+    public void ladrar(){
+        System.out.println("mi Pero se llama "+" "+this.nombre+" "+ "y ladra bonito ");
+    }
 }

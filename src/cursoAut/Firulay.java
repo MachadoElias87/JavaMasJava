@@ -7,10 +7,13 @@ public class Firulay {
         Manchas= new Perro("manchas","aleman","marron",5);
 
 
-        Manchas.saludar();
-        System.out.println(Manchas.getRaza());
-        Manchas.setRaza("chiguagua");
-        System.out.println(Manchas.getRaza());
+         Manchas.saludar();
+         System.out.println(Manchas.getRaza());
+         Manchas.setRaza("BULD");
+         System.out.println(Manchas.getRaza());
+         Manchas.raz();
+
+         Manchas.ladrar();
     }
 
 
